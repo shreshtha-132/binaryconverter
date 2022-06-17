@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deciamltobinary">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="110dp"
+        android:hint="enter your decimal number"
+        android:inputType="number"
+        android:id="@+id/decimal"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="110dp"
+        android:hint="your binary number"
+        android:inputType="none"
+        android:id="@+id/binary"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/convert"
+        />
+
+</RelativeLayout>
